@@ -1,0 +1,6 @@
+a <- c(1:9)
+b <- c(10:18)
+values <- c(a, b)
+arr <- array(values, dim = c(3, 3, 2))
+print(arr[2, , 2])
+print(arr[3, 3, 1]) 

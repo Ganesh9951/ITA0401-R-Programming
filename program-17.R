@@ -1,0 +1,5 @@
+vec1 <- c(1, 2, 3, 4, 5)
+vec2 <- c(6, 7, 8, 9, 10, 11, 12, 13, 14)
+input_values <- c(vec1, vec2)
+my_array <- array(input_values, dim = c(3, 3, 2))
+print(my_array) 

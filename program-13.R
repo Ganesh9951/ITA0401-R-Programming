@@ -1,0 +1,6 @@
+set.seed(123)
+random_numbers <- rnorm(100, mean = 0, sd = 1)
+rounded_numbers <- round(random_numbers)
+occurrences <- table(rounded_numbers)
+cat("Occurrences of each rounded value:\n")
+print(occurrences)
